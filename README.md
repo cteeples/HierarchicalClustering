@@ -12,7 +12,10 @@ The files were run using an Python 3 Anaconda Distribution. Instructions might v
 
 This file is used to generate the graphs for the various clustering options - including the 3 linkage methods and a number of clustering counts. 
 
-To run this program and see the statistics, run **'python clustering_statistics.py'**
+To run this program and see the statistics, run 
+```
+python clustering_statistics.py
+```
 
 ### knn_statistics.py
 
