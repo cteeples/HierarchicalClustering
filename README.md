@@ -16,13 +16,14 @@ To run this program and see the statistics, run
 ```
 python clustering_statistics.py
 ```
-
 ### knn_statistics.py
 
 This file is used to generate the graphs for the various knn parameters - including the linkage types and the distance methods (euclidean, manhattan, and minkowski)
 
-To run this program and see the statistics, run **'python knn_statistics.py'**
-
+To run this program and see the statistics, run 
+```
+python knn_statistics.py
+```
 ## clustering.py and knn.py
 
 These two files contain the HierarchicalClustering and KNN classes. These two classes contain the algorithms used for the project in project_main.py.
@@ -33,4 +34,7 @@ These files are not meant to be run directly.
 
 This file is the main project. It utilizes the HierarchicalClustering class to run the hierarchical agglomerative clustering algorithm on the seeds dataset. The file takes every 10th data item as test_data and uses the rest of the data as training data.
 
-Two run the main project and see the resulting clusters and predictions of the knn algorithm, run **'python project_main.py'**
+Two run the main project and see the resulting clusters and predictions of the knn algorithm, run 
+```
+python project_main.py
+```
